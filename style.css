@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.header{
+  min-height: 45px;
+  background: black;
+  text-align: center;
+  padding: 10px;
+}
+.header-text{
+  color: white;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+.name{
+  display: block;
+  margin-right: auto;
+}
+.header-text li{
+  padding: 10px;
+}
+header{
+  width: 100%;
+  background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2020/10/29064648/17640-shadowlands-leveling-changes-spotlight.jpg');
+  height: 100%;
+    text-align: center;
+}
+
+header img{
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+header img:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+
+.tag{
+  background-color: #fff;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.sub-title{
+  background-color: #000;
+  color: yellow;
+}
+.content{
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.card{
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 50px;
+
+  border-bottom: 4px solid grey;
+  border-radius: 6px;
+}
+footer{
+  text-align: center;
+  padding: 60px;
+}
+.tag-list{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+}
+.tag-bl{
+  background-color: #000fb0;
+}
+.tag-y{
+  background-color: #d0db02;
+}
+.tag-red{
+  background-color: #ba3100;
+}
+.tag-gr{
+  background-color: #008724;
+}
